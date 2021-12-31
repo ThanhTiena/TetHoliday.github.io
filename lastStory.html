@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STORY</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.js"></script>
+
+    <link rel="stylesheet" href="css/chat.css">
+    <link rel="stylesheet" href="css/button.css">
+    <script src="js/chat.js"></script>
+</head>
+
+<body>
+    <div class="content">
+        <span>Khởi đầu cho 1 câu chuyện</span>
+    </div>
+    <div class="container-fluid h-100">
+        <div class="row justify-content-center h-100">
+            <div class="col-md-4 col-xl-3 chat">
+                <div class="card mb-sm-3 mb-md-0 contacts_card">
+                    <div class="card-header">
+                        <div class="input-group">
+                            <input type="text" placeholder="Search..." name="" class="form-control search">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text search_btn"><i class="fas fa-search"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body contacts_body">
+                        <ul class="contacts">
+                            <li class="active">
+                                <div class="d-flex bd-highlight">
+                                    <div class="img_cont">
+                                        <img src="images/avatar.jpg" class="rounded-circle user_img">
+                                        <span class="online_icon"></span>
+                                    </div>
+                                    <div class="user_info">
+                                        <span>Cà Chua</span>
+                                        <p>Cà Chua is online</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer"></div>
+                </div>
+            </div>
+            <div class="col-md-8 col-xl-6 chat">
+                <div class="card">
+                    <div class="card-header msg_head">
+                        <div class="d-flex bd-highlight">
+                            <div class="img_cont">
+                                <img src="images/avatar.jpg" class="rounded-circle user_img">
+                                <span class="online_icon"></span>
+                            </div>
+                            <div class="user_info">
+                                <span>Cà Chua</span>
+                                <p> 24883 Messages</p>
+                            </div>
+                            <div class="video_cam">
+                                <span><i class="fas fa-video"></i></span>
+                                <span><i class="fas fa-phone"></i></span>
+                            </div>
+                        </div>
+                        <span id="action_menu_btn"><i class="fas fa-ellipsis-v"></i></span>
+                        <div class="action_menu">
+                            <ul>
+                                <li><i class="fas fa-user-circle"></i> View profile</li>
+                                <li><i class="fas fa-users"></i> Add to close friends</li>
+                                <li><i class="fas fa-plus"></i> Add to group</li>
+                                <li><i class="fas fa-ban"></i> Block</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-body msg_card_body">
+                        <div style="text-align:center;margin-bottom: 20px;color: #ccc;"><span>Facebook</span><br><span>Các bạn là bạn bè trên Facebook</span></div>
+                        <div class="d-flex justify-content-end mb-4">
+                            <div class="msg_cotainer_send">
+                                Giữ gìn sức khoa tốt nhe bạn
+                                <span class="msg_time_send">09:51, 1 Tháng 2, 2021</span>
+                            </div>
+                            <div class="img_cont_msg">
+                                <img src="images/avatar2.jpg" class="rounded-circle user_img_msg">
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-start mb-4">
+                            <div class="img_cont_msg">
+                                <img src="images/avatar.jpg" class="rounded-circle user_img_msg">
+                            </div>
+                            <div class="msg_cotainer">
+                                Mình cám ơn nha <br> Bạn cũng z hic
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-end mb-4">
+                            <div class="msg_cotainer_send">
+                                Khoa bạn học gần bên sư phạm hông
+                                <span class="msg_time_send">11:42, 1 Tháng 2, 2021</span>
+                            </div>
+                            <div class="img_cont_msg">
+                                <img src="images/avatar2.jpg" class="rounded-circle user_img_msg">
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-start mb-4">
+                            <div class="img_cont_msg">
+                                <img src="images/avatar.jpg" class="rounded-circle user_img_msg">
+                            </div>
+                            <div class="msg_cotainer">
+                                Sư phạm nào ta
+                                <span class="msg_time">12:01, 1 Tháng 2, 2021</span>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-end mb-4">
+                            <div class="msg_cotainer_send">
+                                Sư phạm tiểu học á
+                                <span class="msg_time_send">11:42, 1 Tháng 2, 2021</span>
+                            </div>
+                            <div class="img_cont_msg">
+                                <img src="images/avatar2.jpg" class="rounded-circle user_img_msg">
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-start mb-4">
+                            <div class="img_cont_msg">
+                                <img src="images/avatar.jpg" class="rounded-circle user_img_msg">
+                            </div>
+                            <div class="msg_cotainer">
+                                Hông nghe lạ quá <br> Bạn học đh tdm luon hả
+                                <span class="msg_time">12:01, 1 Tháng 2, 2021</span>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-end mb-4">
+                            <div class="msg_cotainer_send">
+                                Không có
+                            </div>
+                            <div class="img_cont_msg">
+                                <img src="images/avatar2.jpg" class="rounded-circle user_img_msg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="input-group">
+                            <div class="input-group-append">
+                                <span class="input-group-text attach_btn"><i class="fas fa-paperclip"></i></span>
+                            </div>
+                            <textarea name="" class="form-control type_msg" placeholder="Hùi đó tụi mình na"></textarea>
+                            <div class="input-group-append">
+                                <span class="input-group-text send_btn"><i class="fas fa-location-arrow"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="countTime.html"><button class="bn632-hover bn21" id = "button">Nhấn nhẹ</button></a>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+        #button {
+            display: none;
+            padding: 0;
+            position: absolute;
+            right: 5px;
+            bottom: 0;
+        }
+        
+        .container-fluid {
+            display: none;
+        }
+        
+        .content {
+            width: 100%;
+            font-family: 'Licorice', cursive;
+            font-size: 72px;
+            color: #fff;
+            text-align: center;
+        }
+    </style>
+</body>
+
+</html>

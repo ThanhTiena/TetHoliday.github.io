@@ -15,7 +15,7 @@ for (var i = 0; i < heartNum; i++) {
 
 // main
 var index = 0;
-const story = ["Hé Lu Em Iu", "Nay Ngày Cuối Cùng Của Năm Rồi Á!", "Mới đó mà vèo cái là hết năm", "Nhanh Thiệt Sự", "Mà tụi mình chưa có nhiều thời gian cho nhau", "Đôi lúc anh làm em buồn nữa", "Xin lỗi em nha", "Sang năm với anh sẽ vất vả", "Mà hum sao anh lo được hết", "Em iu dui 1 là anh dui mười", "hết mệt lun kakak", "Anh hông biết nói gì hơn nữa", "Yêu em moaaa!!!", "Chúc em iu năm mới luôn hạnh phúc", "Gặp nhiều điều may mắn na", "Mọi sự đều như ý", "Kiếm được việc khỏe re na kkk", "Moaaa bà xã cái nữa"];
+const story = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; // content show
 const myInterval = setInterval(readStory, 3000);
 
 

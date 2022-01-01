@@ -15,7 +15,7 @@ for (var i = 0; i < heartNum; i++) {
 
 // main
 var index = 0;
-const story = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; // content show
+const story = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]; // content show
 const myInterval = setInterval(readStory, 3000);
 
 
